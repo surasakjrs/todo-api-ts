@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac / OS
+.DS_Store
+Thumbs.db
+
+# ts-node / ts-node-dev cache
+*.tsbuildinfo
+*.rpt2_cache/
+
+# Optional lockfiles (เลือกใช้ได้ตามที่ใช้จริง)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
